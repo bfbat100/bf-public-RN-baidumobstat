@@ -54,4 +54,11 @@
 	}
 	```
 	
+* AndroidManifest.xml 添加
+
+	```
+        <!-- 您从百度网站获取的APP KEY，根据实际您的APP申请的APP_KEY进行修改 -->
+        <meta-data android:name="BaiduMobAd_STAT_ID" android:value="xxx" />
+	```
+	
 * 在App.js 内使用对应的接口埋点，完成统计
